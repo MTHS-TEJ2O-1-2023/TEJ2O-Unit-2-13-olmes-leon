@@ -28,7 +28,7 @@ input.onButtonPressed(Button.A, function () {
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.White))
   neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.White))
 
-// 4 neopixels
+  // 4 neopixels
   while (loopCounter >= 0) {
     basic.showNumber(loopCounter)
     neopixelStrip.show()
