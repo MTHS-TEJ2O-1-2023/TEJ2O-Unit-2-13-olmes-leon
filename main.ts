@@ -23,10 +23,10 @@ basic.showIcon(IconNames.Happy)
 input.onButtonPressed(Button.A, function () {
   loopCounter = 4
   basic.clearScreen()
-  neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.White))
-  neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.White))
-  neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.White))
-  neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.White))
+  neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
+  neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Green))
+  neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
+  neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Red))
 
   // 4 neopixels
   while (loopCounter >= 0) {
